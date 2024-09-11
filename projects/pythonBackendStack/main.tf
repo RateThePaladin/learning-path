@@ -27,7 +27,7 @@ resource "docker_image" "fastapi" {
 }
 resource "docker_container" "fastapi" {
   image = docker_image.fastapi.image_id
-  name  = "tutorial"
+  name  = "fastapi"
 
   ports {
     internal = 80
