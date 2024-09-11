@@ -21,3 +21,17 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+# Ignore Terraform files
+*.tfstate
+*.tfstate.*
+.crash
+.terraform/
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+.terraform.rc

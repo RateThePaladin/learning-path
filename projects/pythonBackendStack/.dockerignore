@@ -1,0 +1,28 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Ignore Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Ignore other common files
+.DS_Store
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore local configuration files
+.env.local
+.env.*.local
