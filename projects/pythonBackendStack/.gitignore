@@ -1,0 +1,37 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore virtual environment
+*venv/
+
+# Ignore logs
+*.log
+
+# Ignore cache files
+__pycache__/
+
+# Ignore environment variables file
+.env
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore package dependencies
+*.egg-info/
+dist/
+build/
+
+# Ignore Terraform files
+*.tfstate
+*.tfstate.*
+.crash
+.terraform/
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+.terraform.rc
