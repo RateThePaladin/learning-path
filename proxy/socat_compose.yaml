@@ -1,0 +1,7 @@
+services:
+  plex-relay:
+    image: alpine/socat:latest
+    container_name: relay
+    network_mode: "host"
+    restart: unless-stopped
+    command: tcp-listen:PORT,fork,reuseaddr tcp:127.0.0.1:32400
