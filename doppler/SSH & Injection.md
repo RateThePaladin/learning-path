@@ -1,4 +1,3 @@
-```markdown
 # Doppler VS Code Remote-SSH Wrapper
 
 > **AI-GENERATED CODE DISCLAIMER**
@@ -22,7 +21,6 @@ And here's the `NODE.key.tmpl` file it references:
 
 ```text
 {{ .NODE_KEY }}
-
 ```
 
 This works well for standard terminal access, but integrating it into VS Code's Remote-SSH extension requires a bit more effort, as VS Code manages its own background SSH process.
@@ -51,7 +49,6 @@ Because VS Code runs its SSH helper as a background process, it cannot trigger t
 ```bash
 doppler configs tokens create vscode-ssh --project ssh-tokens --config dev --plain > ~/.ssh/doppler_token
 chmod 600 ~/.ssh/doppler_token
-
 ```
 
 ## 2. The SSH Key Template
@@ -60,14 +57,12 @@ Create a Doppler template file for your host. The filename must match your targe
 
 ```bash
 nano ~/.ssh/node.key.tmpl
-
 ```
 
 Add the following content to inject the key from Doppler:
 
 ```text
 {{ .NODE_KEY }}
-
 ```
 
 ## 3. The Wrapper Script
@@ -76,7 +71,6 @@ Create the wrapper script on your local machine:
 
 ```bash
 nano ~/.ssh/doppler-vscode-ssh.sh
-
 ```
 
 Copy the contents of the `doppler-vscode-ssh.sh` script **included in this repository** into that file.
@@ -85,7 +79,6 @@ Make the script executable:
 
 ```bash
 chmod +x ~/.ssh/doppler-vscode-ssh.sh
-
 ```
 
 ## 4. VS Code Configuration
@@ -103,10 +96,9 @@ To make your Doppler hosts appear in VS Code's Remote Explorer sidebar, add dumm
 ```text
 Host NODE
     HostName managed-by-doppler
-
 ```
 
-*Note: The wrapper script intercepts the connection before standard SSH resolves `managed-by-doppler`, making it perfectly safe.*
+*Note: The wrapper script intercepts the connection before standard SSH resolves `managed-by-doppler`*
 
 ## 5. Usage
 
@@ -115,5 +107,4 @@ Host NODE
 
 ```bash
 code --remote ssh-remote+NODE /home/ubuntu/
-
 ```
