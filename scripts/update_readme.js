@@ -23,12 +23,15 @@ async function main() {
         const currentReadme = fs.readFileSync('README.md', 'utf-8');
 
         const prompt = `You are an expert technical writer and repository maintainer. 
-        Below is the current README.md, the current file structure of the repo, and the 5 most recent commits.
+        Below is the current main README.md, the current file structure of the repo, and the 5 most recent commits.
         
-        Task: Update the README.md to accurately reflect the repository's current state.
-        1. Keep the core documentation (like the Doppler SSH wrapper tutorial) entirely intact.
-        2. Add or update a "Repository Structure" section to reflect the provided file tree.
-        3. Add or update a "Recent Updates" section based on the recent commit messages.
+        Task: Update the main README.md to act strictly as a high-level index and overview of the repository.
+        
+        Rules:
+        1. Keep the original introduction ("Forever a student...") completely intact.
+        2. "Repository Structure" Section: Map out the major folders (e.g., doppler, ssh, databricks). For each folder, write a brief 1-2 sentence summary of its purpose and provide a relative markdown link to the folder.
+        3. "Recent Updates" Section: Summarize the recent commit log into a clean, bulleted list.
+        4. CRITICAL CONSTRAINT: DO NOT copy, paste, or summarize the full contents of tutorials, scripts, or sub-READMEs into this main file. This file must remain a brief table of contents.
         
         Output ONLY the raw markdown content for the new README.md. Do not wrap your response in markdown formatting blocks (\`\`\`markdown) as this will be piped directly into the file.
         
