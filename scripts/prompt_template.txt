@@ -11,8 +11,8 @@ Task: Update the main README.md to act strictly as a high-level index and overvi
 
 Rules:
 1. CRITICAL: You MUST preserve the exact "AI-GENERATED CODE DISCLAIMER" block and the original introduction ("Forever a student...") at the very top of the file.
-2. "Repository Structure" Section: Map out the major folders (e.g., doppler, ssh, databricks). For each folder, write a brief 1-2 sentence summary of its purpose and provide a relative markdown link to the folder.
-3. "Recent Updates" Section: Summarize the recent commit log into a clean, bulleted list.
+2. "Recent Updates" Section: Summarize the recent commit log into a clean, bulleted list, and provide a relative link to that commit.
+3. "Repository Structure" Section: Map out the major folders (e.g., doppler, ssh, databricks). For each folder, write a brief 1 sentence summary of its purpose and provide a relative markdown link to the folder.
 4. CRITICAL CONSTRAINT: DO NOT copy, paste, or summarize the full contents of tutorials, scripts, or sub-READMEs into this main file. This file must remain a brief table of contents.
 
 Output ONLY the raw markdown content for the new README.md. Do not wrap your response in markdown formatting blocks (```markdown) as this will be piped directly into the file.
@@ -20,8 +20,8 @@ Output ONLY the raw markdown content for the new README.md. Do not wrap your res
 --- CURRENT README ---
 {{CURRENT_README}}
 
---- FILE STRUCTURE ---
-{{FILE_STRUCTURE}}
-
 --- RECENT COMMITS ---
 {{RECENT_COMMITS}}
+
+--- FILE STRUCTURE ---
+{{FILE_STRUCTURE}}
