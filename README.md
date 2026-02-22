@@ -1,4 +1,9 @@
 # learning-path
+
+> **AI-GENERATED CODE DISCLAIMER**
+> Portions of this repository, including this documentation, were generated with the assistance of an AI. 
+> Please review and test all code thoroughly before using it in a production environment.
+
 Forever a student. Repo for documenting public learnings and certifications
 
 ## Repository Structure
