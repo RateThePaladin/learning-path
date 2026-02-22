@@ -25,6 +25,6 @@ This repository is organized into several key directories, each serving a distin
 
 Here's a summary of the most recent developments in the repository:
 
-*   Ongoing integration and refinement of Gemini AI for automated README generation, including updates to the generation prompt and exclusion of `node_modules`.
-*   Updates to the `ai-readme.yml` GitHub Actions workflow, supporting the automated documentation process.
-*   Several branch merges, signifying progress on the `gemini_readme` feature development.
+*   Added a distinct prompt template file and an AI code disclaimer to the main README.
+*   Implemented and refined automatic README updates, including associated GitHub Actions workflows.
+*   Continued development and merges related to the `gemini_readme` feature.
