@@ -33,11 +33,10 @@ jobs:
         run: npm install
 
       - name: Generate New README with Gemini
-        working-directory: ./scripts
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         # Runs from the root of the repo so it can find README.md
-        run: node update_readme.js
+        run: node scripts/update_readme.js
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
