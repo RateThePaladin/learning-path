@@ -1,0 +1,20 @@
+[Definition]
+# Notify when the jail starts up
+actionstart = curl -s -X POST "https://api.telegram.org/bot<bottoken>/sendMessage" -d "chat_id=<chatid>" -d "text=🛡️ Fail2ban: Jail [<name>] started on Oracle Proxy VM"
+
+# Notify when the jail shuts down
+actionstop  = curl -s -X POST "https://api.telegram.org/bot<bottoken>/sendMessage" -d "chat_id=<chatid>" -d "text=🛑 Fail2ban: Jail [<name>] stopped on Oracle Proxy VM"
+
+# Required by Fail2ban but unused here
+actioncheck = 
+
+# Send the notification when an IP is banned
+actionban = telegram-scaffold.sh "<name>" "<ip>" "<bantime>"
+
+# Send the notification when an IP is unbanned
+actionunban = 
+# curl -s -X POST "https://api.telegram.org/bot<bottoken>/sendMessage" -d "chat_id=<chatid>" -d "text=✅ Fail2ban UNBANNED IP: <ip>"
+
+[Init]
+bottoken = 
+chatid = 

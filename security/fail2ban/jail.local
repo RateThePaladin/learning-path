@@ -1,0 +1,51 @@
+# ---
+# AI DISCLAIMER: This script was generated with the assistance of an AI. 
+# Verify all commands and API endpoints before deployment in production.
+# ---
+
+[DEFAULT]
+# Whitelist localhost and the standard Tailscale IP range (CGNAT) 
+ignoreip = 127.0.0.1/8 ::1 100.64.0.0/10
+
+# Global default thresholds (applies to all jails unless specifically overridden below)
+bantime  = 1h
+findtime = 10m
+maxretry = 1
+
+# --- INCREMENTAL BAN SETTINGS ---
+# Enable the increment system
+bantime.increment = true
+
+# Define the absolute maximum ban time
+bantime.maxtime = 5w
+
+# Define the multipliers based on the base 'bantime' (1h)
+# Strike 1: 1h x 1   = 1 hour
+# Strike 2: 1h x 24  = 1 day
+# Strike 3: 1h x 168 = 1 week
+# Strike 4: 1h x 672 = 4 weeks
+bantime.multipliers = 1 24 168 672
+
+
+# ------------------------------------------------------------------------
+# SSH JAIL (Local protection for your SSH port)
+# ------------------------------------------------------------------------
+[sshd]
+enabled  = true
+port     = ssh
+logpath  = %(sshd_log)s
+backend  = %(sshd_backend)s
+maxretry = 3
+bantime  = 1h
+action   = telegram
+
+# ------------------------------------------------------------------------
+# NGINX CLOUDFLARE JAIL (Edge protection for your public web traffic)
+# ------------------------------------------------------------------------
+[npm-botsearch]
+enabled  = true
+port     = http,https
+logpath  = /proxy-host-*_access.log
+backend  = auto
+action   = cloudflare-token
+           telegram
