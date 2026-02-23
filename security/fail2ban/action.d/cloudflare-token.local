@@ -1,0 +1,8 @@
+[Init]
+# Your specific domain's Zone ID 
+cfzone = 
+
+# The custom API Token you just created
+cftoken = 
+
+notes = Fail2Ban_<name>
