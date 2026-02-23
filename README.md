@@ -10,11 +10,11 @@ Forever a student. Repo for documenting public learnings and certifications
 
 Here's a summary of the most recent developments in the repository:
 
-*   Added fail2ban project information, with anonymized details. ([`48a1df2`](./../commit/48a1df2))
-*   Merged a pull request for auto-updating the README. ([`6462721`](./../commit/6462721))
-*   Automated README updates based on recent changes. ([`826c102`](./../commit/826c102))
-*   Hotpatched the README structure and the relevant AI prompt. ([`e5242b1`](./../commit/e5242b1))
-*   Merged a pull request for the auto-update README feature. ([`c058169`](./../commit/c058169))
+*   Merged a pull request related to Fail2Ban updates. ([`80facd2`](./../commit/80facd2))
+*   Added notes for Cloudflare IP unbanning. ([`b95b933`](./../commit/b95b933))
+*   Merged a pull request for the auto-update README feature. ([`8aa4698`](./../commit/8aa4698))
+*   Automated README updates based on recent changes. ([`2f9d874`](./../commit/2f9d874))
+*   Added Fail2Ban project information, with anonymized details. ([`48a1df2`](./../commit/48a1df2))
 
 ## Repository Structure
 
