@@ -10,11 +10,11 @@ Forever a student. Repo for documenting public learnings and certifications
 
 Here's a summary of the most recent developments in the repository:
 
-*   [`5ef8d3d`](https://github.com/RateThePaladin/learning-path/commit/5ef8d3d) - Added antigravity and Windscribe application icons to assets.
-*   [`3484be5`](https://github.com/RateThePaladin/learning-path/commit/3484be5) - Merged pull request #13, introducing automated README updates.
-*   [`d02fc1a`](https://github.com/RateThePaladin/learning-path/commit/d02fc1a) - Implemented automatic README updates based on recent changes.
-*   [`c34be17`](https://github.com/RateThePaladin/learning-path/commit/c34be17) - Merged pull request #14, refactoring the repository structure and assets management.
-*   [`171c865`](https://github.com/RateThePaladin/learning-path/commit/171c865) - Restructured the repository into a domain hierarchy, added assets hosting, and optimized CI/CD.
+*   **2026-10-27**: Added Antigravity and Windscribe application icons to assets. ([`5ef8d3d`](https://github.com/RateThePaladin/learning-path/commit/5ef8d3d))
+*   **2026-10-27**: Merged pull request #14, refactoring the repository into domain-driven hierarchy and setting up permanent assets hosting. ([#14](https://github.com/RateThePaladin/learning-path/pull/14))
+*   **2026-02-22**: Added new application icon for Docker socat proxy. ([`43d97da`](https://github.com/RateThePaladin/learning-path/commit/43d97da))
+*   **2026-02-22**: Merged pull request related to Fail2Ban updates and Cloudflare IP unbanning. ([#11](https://github.com/RateThePaladin/learning-path/pull/11))
+*   **2026-02-22**: Automated README updates and repository maintenance workflows. ([#10](https://github.com/RateThePaladin/learning-path/pull/10))
 
 ## Repository Structure
 

@@ -11,7 +11,11 @@ Task: Update the main README.md to act strictly as a high-level index and overvi
 
 Rules:
 1. CRITICAL: You MUST preserve the exact "AI-GENERATED CODE DISCLAIMER" block and the original introduction ("Forever a student...") at the very top of the file.
-2. "Recent Updates" Section: Summarize the recent commit log into a clean bulleted list. Link each commit using the format: https://github.com/RateThePaladin/learning-path/commit/<hash> (e.g. [`80facd2`](https://github.com/RateThePaladin/learning-path/commit/80facd2)).
+2. "Recent Updates" Section: Summarize the recent commit log into a clean bulleted list with the date prefixed (format: * **YYYY-MM-DD**: Description...):
+   - The commit log input is formatted as "<hash> | <YYYY-MM-DD> | <message>". Extract and prefix each bullet with **YYYY-MM-DD**:
+   - For Pull Request merges (e.g. "Merge pull request #11..."): Preserve the PR number and link to the pull request as ([#<num>](https://github.com/RateThePaladin/learning-path/pull/<num>)).
+   - For direct commits: Link to the commit as ([`<hash>`](https://github.com/RateThePaladin/learning-path/commit/<hash>)).
+   - EVERY bullet item MUST include both the date prefix and its corresponding PR/commit link.
 3. "Repository Structure" Section: Map out the top-level directories (assets, docs, homelab, projects, .github). For each directory, write a brief 1-2 sentence summary of its purpose, highlight key subfolders (such as assets/icons for immutable homelab app icons), and provide a relative markdown link to the folder (e.g., [assets](./assets)).
 4. CRITICAL CONSTRAINT: DO NOT copy, paste, or summarize the full contents of tutorials, scripts, or sub-READMEs into this main file. This file must remain a brief table of contents.
 
