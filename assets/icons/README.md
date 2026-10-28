@@ -2,6 +2,8 @@
 
 This directory hosts permanent, immutable icons for homelab dashboards (Homepage, Homarr, Heimdall, Dashy, Organizr), Unraid Docker templates, and application banners.
 
+> **Auto-Generated**: This catalog is automatically updated by GitHub Actions whenever icons are added or modified.
+
 ---
 
 ## 🚀 Fast CDN & Permanent URLs
@@ -17,7 +19,7 @@ Because icons here are tracked in Git, the URLs will never change. You can use e
 
 ---
 
-## 📦 Hosted Icons
+## 📦 Hosted Icons (1)
 
 | Icon | Filename | jsDelivr CDN URL | GitHub Raw URL |
 | :---: | :--- | :--- | :--- |
@@ -31,4 +33,4 @@ When adding new icons:
 1. Use transparent PNGs or SVGs where possible.
 2. Target square dimensions (e.g. 256x256 or 512x512).
 3. Use lowercase, kebab-case filenames (e.g. `my-app.png`).
-4. Update the table above so URLs are readily accessible.
+4. Commit the new file—the catalog table above will automatically rebuild!

@@ -2,7 +2,8 @@
   "name": "readme-updater",
   "type": "module",
   "scripts": {
-    "generate": "node update_readme.js"
+    "generate": "node update_readme.js",
+    "generate-docs": "node generate_docs.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0"

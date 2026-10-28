@@ -10,10 +10,10 @@ Forever a student. Repo for documenting public learnings and certifications
 
 Here's a summary of the most recent developments in the repository:
 
-*   Reorganized repository architecture into domain-driven hierarchy and established permanent `assets/icons/` hosting.
+*   Reorganized repository architecture into domain-driven hierarchy and established permanent `assets/icons/` hosting. ([#14](https://github.com/RateThePaladin/learning-path/pull/14))
 *   Added new application icon for Docker socat proxy. ([`43d97da`](https://github.com/RateThePaladin/learning-path/commit/43d97da))
-*   Merged pull request related to Fail2Ban updates and Cloudflare IP unbanning. ([`80facd2`](https://github.com/RateThePaladin/learning-path/commit/80facd2))
-*   Automated README updates and repository maintenance workflows. ([`8aa4698`](https://github.com/RateThePaladin/learning-path/commit/8aa4698))
+*   Merged pull request related to Fail2Ban updates and Cloudflare IP unbanning. ([#11](https://github.com/RateThePaladin/learning-path/pull/11))
+*   Automated README updates and repository maintenance workflows. ([#10](https://github.com/RateThePaladin/learning-path/pull/10))
 *   Added Fail2Ban configuration with Telegram alert scaffolding. ([`48a1df2`](https://github.com/RateThePaladin/learning-path/commit/48a1df2))
 
 ## Repository Structure
