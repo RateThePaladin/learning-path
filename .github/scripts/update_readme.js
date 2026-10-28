@@ -35,7 +35,7 @@ async function main() {
         
         // 2. Gather dynamic repository data from git
         const tree = execSync("git ls-tree -r HEAD --name-only", { cwd: REPO_ROOT }).toString();
-        const gitLog = execSync('git log -5 --pretty=format:"%h - %s"', { cwd: REPO_ROOT }).toString();
+        const gitLog = execSync('git log -5 --pretty=format:"%h | %cs | %s"', { cwd: REPO_ROOT }).toString();
         const currentReadme = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, "utf-8") : "";
 
         // 3. Inject dynamic data into the template placeholders

@@ -10,11 +10,11 @@ Forever a student. Repo for documenting public learnings and certifications
 
 Here's a summary of the most recent developments in the repository:
 
-*   Reorganized repository architecture into domain-driven hierarchy and established permanent `assets/icons/` hosting. ([#14](https://github.com/RateThePaladin/learning-path/pull/14))
-*   Added new application icon for Docker socat proxy. ([`43d97da`](https://github.com/RateThePaladin/learning-path/commit/43d97da))
-*   Merged pull request related to Fail2Ban updates and Cloudflare IP unbanning. ([#11](https://github.com/RateThePaladin/learning-path/pull/11))
-*   Automated README updates and repository maintenance workflows. ([#10](https://github.com/RateThePaladin/learning-path/pull/10))
-*   Added Fail2Ban configuration with Telegram alert scaffolding. ([`48a1df2`](https://github.com/RateThePaladin/learning-path/commit/48a1df2))
+*   **2026-10-27**: Reorganized repository architecture into domain-driven hierarchy and established permanent `assets/icons/` hosting. ([#14](https://github.com/RateThePaladin/learning-path/pull/14))
+*   **2026-02-22**: Added new application icon for Docker socat proxy. ([`43d97da`](https://github.com/RateThePaladin/learning-path/commit/43d97da))
+*   **2026-02-22**: Merged pull request related to Fail2Ban updates and Cloudflare IP unbanning. ([#11](https://github.com/RateThePaladin/learning-path/pull/11))
+*   **2026-02-22**: Automated README updates and repository maintenance workflows. ([#10](https://github.com/RateThePaladin/learning-path/pull/10))
+*   **2026-02-22**: Added Fail2Ban configuration with Telegram alert scaffolding. ([`48a1df2`](https://github.com/RateThePaladin/learning-path/commit/48a1df2))
 
 ## Repository Structure
 

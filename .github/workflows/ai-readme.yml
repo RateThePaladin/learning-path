@@ -27,7 +27,23 @@ permissions:
   pull-requests: write
 
 jobs:
+  scan-secrets:
+    name: Secret & Key Leak Detection
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Deep scan so gitleaks can inspect commits
+
+      - name: Run Gitleaks Secret Scanner
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   update-docs:
+    name: Update Documentation & README
+    needs: scan-secrets # Gated: only runs once secret scanner passes
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository

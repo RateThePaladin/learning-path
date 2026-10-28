@@ -1,0 +1,15 @@
+title = "Gitleaks Configuration for learning-path"
+
+[allowlist]
+description = "Allowlist for documentation examples and template placeholders"
+regexes = [
+    '''(?i)<bottoken>''',
+    '''(?i)<chatid>''',
+    '''(?i)<cftoken>''',
+    '''(?i)<cfzone>''',
+    '''\{\{\s*\.NODE_KEY\s*\}\}''',
+    '''AC_PASSWORD''',
+]
+paths = [
+    '''\.gitleaks\.toml''',
+]
