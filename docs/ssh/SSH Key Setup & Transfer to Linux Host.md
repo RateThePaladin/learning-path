@@ -18,4 +18,4 @@ Great, let's try using our fancy new key!
 ssh -i NewKey username@host.name
 ```
 
-If you're now inside a secure shell on the VM our work here is done! If you're planning on using doppler to keep track of this key, read this article next: [[SSH & Injection]]
+If you're now inside a secure shell on the VM our work here is done! If you're planning on using doppler to keep track of this key, read this article next: [Doppler: SSH & Injection](../doppler/SSH%20&%20Injection.md)
