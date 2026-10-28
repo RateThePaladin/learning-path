@@ -10,11 +10,11 @@ Forever a student. Repo for documenting public learnings and certifications
 
 Here's a summary of the most recent developments in the repository:
 
+*   **2026-10-27**: Added copyparty app icon. ([`e41b34f`](https://github.com/RateThePaladin/learning-path/commit/e41b34f))
+*   **2026-10-28**: Auto-updated README and catalog documentation. ([`f48a92a`](https://github.com/RateThePaladin/learning-path/commit/f48a92a))
 *   **2026-10-27**: Switched documentation updater from PR creation to direct auto-commit with multi-layer loop prevention. ([`7c78946`](https://github.com/RateThePaladin/learning-path/commit/7c78946))
-*   **2026-10-27**: Merged pull request #16, related to auto-updating the README. ([#16](https://github.com/RateThePaladin/learning-path/pull/16))
+*   **2026-10-27**: Merged pull request #16 related to auto-updating the README. ([#16](https://github.com/RateThePaladin/learning-path/pull/16))
 *   **2026-10-28**: Auto-updated README and catalog documentation. ([`3f2add6`](https://github.com/RateThePaladin/learning-path/commit/3f2add6))
-*   **2026-10-27**: Merged structural refactor, adding Gitleaks secret scanner, an auto-updating icon catalog, and date-related features. ([`d39e0e1`](https://github.com/RateThePaladin/learning-path/commit/d39e0e1))
-*   **2026-10-27**: Merged pull request #15, related to auto-updating the README. ([#15](https://github.com/RateThePaladin/learning-path/pull/15))
 
 ## Repository Structure
 

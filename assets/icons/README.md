@@ -19,11 +19,12 @@ Because icons here are tracked in Git, the URLs will never change. You can use e
 
 ---
 
-## 📦 Hosted Icons (3)
+## 📦 Hosted Icons (4)
 
 | Icon | Filename | jsDelivr CDN URL | GitHub Raw URL |
 | :---: | :--- | :--- | :--- |
 | <img src="antigravity.png" width="48" height="48" alt="antigravity" /> | `antigravity.png` | `https://cdn.jsdelivr.net/gh/RateThePaladin/learning-path@main/assets/icons/antigravity.png` | `https://raw.githubusercontent.com/RateThePaladin/learning-path/main/assets/icons/antigravity.png` |
+| <img src="copyparty.svg" width="48" height="48" alt="copyparty" /> | `copyparty.svg` | `https://cdn.jsdelivr.net/gh/RateThePaladin/learning-path@main/assets/icons/copyparty.svg` | `https://raw.githubusercontent.com/RateThePaladin/learning-path/main/assets/icons/copyparty.svg` |
 | <img src="socex.png" width="48" height="48" alt="socex" /> | `socex.png` | `https://cdn.jsdelivr.net/gh/RateThePaladin/learning-path@main/assets/icons/socex.png` | `https://raw.githubusercontent.com/RateThePaladin/learning-path/main/assets/icons/socex.png` |
 | <img src="windscribe_icon.png" width="48" height="48" alt="windscribe_icon" /> | `windscribe_icon.png` | `https://cdn.jsdelivr.net/gh/RateThePaladin/learning-path@main/assets/icons/windscribe_icon.png` | `https://raw.githubusercontent.com/RateThePaladin/learning-path/main/assets/icons/windscribe_icon.png` |
 
