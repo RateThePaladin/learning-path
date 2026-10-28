@@ -10,18 +10,18 @@ Forever a student. Repo for documenting public learnings and certifications
 
 Here's a summary of the most recent developments in the repository:
 
-*   Merged pull request #14, introducing a refactored repository structure and assets management. ([`c34be17`](https://github.com/RateThePaladin/learning-path/commit/c34be17))
-*   Refactored repository into a domain-driven hierarchy, established assets hosting, and optimized CI/CD workflows. ([`171c865`](https://github.com/RateThePaladin/learning-path/commit/171c865))
-*   Added a new application icon (courtesy of Gemini). ([`43d97da`](https://github.com/RateThePaladin/learning-path/commit/43d97da))
-*   Merged pull request #12, automating README updates. ([`08fed6a`](https://github.com/RateThePaladin/learning-path/commit/08fed6a))
-*   Implemented automated README updates based on recent changes. ([`fd719e7`](https://github.com/RateThePaladin/learning-path/commit/fd719e7))
+*   [`5ef8d3d`](https://github.com/RateThePaladin/learning-path/commit/5ef8d3d) - Added antigravity and Windscribe application icons to assets.
+*   [`3484be5`](https://github.com/RateThePaladin/learning-path/commit/3484be5) - Merged pull request #13, introducing automated README updates.
+*   [`d02fc1a`](https://github.com/RateThePaladin/learning-path/commit/d02fc1a) - Implemented automatic README updates based on recent changes.
+*   [`c34be17`](https://github.com/RateThePaladin/learning-path/commit/c34be17) - Merged pull request #14, refactoring the repository structure and assets management.
+*   [`171c865`](https://github.com/RateThePaladin/learning-path/commit/171c865) - Restructured the repository into a domain hierarchy, added assets hosting, and optimized CI/CD.
 
 ## Repository Structure
 
 This repository is organized into several key directories, each serving a distinct purpose in documenting various technical learnings, homelab configurations, and projects:
 
-*   **[.github](./.github)**: Contains GitHub Actions CI/CD workflows (such as AI README generation) and repository maintenance scripts.
-*   **[assets](./assets)**: Centralized static assets repository, including permanent [app icons](./assets/icons) for homelab dashboards, avatars, and Obsidian note attachments.
-*   **[docs](./docs)**: Obsidian knowledge base containing guides and cheatsheets for SSH key management, Doppler secrets, GitHub Actions, and certifications.
-*   **[homelab](./homelab)**: Infrastructure configurations and host scripts, featuring [Unraid user scripts](./homelab/unraid/user-scripts), Fail2Ban security with Cloudflare/Telegram integration, and proxy configurations.
-*   **[projects](./projects)**: Standalone runnable project templates and codebases, including a containerized Python FastAPI + Terraform stack.
+*   **[.github](./.github)**: This directory contains configuration files for GitHub-specific features, primarily GitHub Actions workflows. It manages automated tasks such as CI/CD pipelines and repository maintenance, including the AI-assisted README updates. (See `scripts` and `workflows` subfolders).
+*   **[assets](./assets)**: Serves as a centralized location for static assets used across the repository. This includes images, diagrams, and various media files that support documentation and project visuals. Key subfolders include `icons` for immutable homelab application icons, `avatars`, and `docs`.
+*   **[docs](./docs)**: Houses an Obsidian-based knowledge base. This section contains various guides, cheatsheets, and certification materials covering topics like SSH key management, Doppler secrets, and GitHub Actions. (Subfolders include `certifications`, `doppler`, `github-actions`, and `ssh`).
+*   **[homelab](./homelab)**: Dedicated to infrastructure configurations and host scripts for personal homelab setups. It includes settings for security, proxy services, and user scripts for platforms like Unraid. (Check `proxy`, `security`, and `unraid/user-scripts`).
+*   **[projects](./projects)**: Contains standalone runnable project templates and codebases. Each subfolder represents a distinct project, often with its own documentation and environment setup, such as the `pythonBackendStack`.
