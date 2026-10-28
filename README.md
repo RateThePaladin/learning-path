@@ -10,24 +10,18 @@ Forever a student. Repo for documenting public learnings and certifications
 
 Here's a summary of the most recent developments in the repository:
 
-*   Merged a pull request related to Fail2Ban updates. ([`80facd2`](./../commit/80facd2))
-*   Added notes for Cloudflare IP unbanning. ([`b95b933`](./../commit/b95b933))
-*   Merged a pull request for the auto-update README feature. ([`8aa4698`](./../commit/8aa4698))
-*   Automated README updates based on recent changes. ([`2f9d874`](./../commit/2f9d874))
-*   Added Fail2Ban project information, with anonymized details. ([`48a1df2`](./../commit/48a1df2))
+*   Reorganized repository architecture into domain-driven hierarchy and established permanent `assets/icons/` hosting.
+*   Added new application icon for Docker socat proxy. ([`43d97da`](https://github.com/RateThePaladin/learning-path/commit/43d97da))
+*   Merged pull request related to Fail2Ban updates and Cloudflare IP unbanning. ([`80facd2`](https://github.com/RateThePaladin/learning-path/commit/80facd2))
+*   Automated README updates and repository maintenance workflows. ([`8aa4698`](https://github.com/RateThePaladin/learning-path/commit/8aa4698))
+*   Added Fail2Ban configuration with Telegram alert scaffolding. ([`48a1df2`](https://github.com/RateThePaladin/learning-path/commit/48a1df2))
 
 ## Repository Structure
 
-This repository is organized into several key directories, each serving a distinct purpose in documenting various technical learnings and projects.
+This repository is organized into several key directories, each serving a distinct purpose in documenting various technical learnings, homelab configurations, and projects:
 
-*   **[.github](./.github)**: Contains GitHub Actions workflows for automating repository tasks.
-*   **[databricks](./databricks)**: Stores documentation and resources related to Databricks environments.
-*   **[designs](./designs)**: Holds various design assets and graphics used within the repository.
-*   **[doppler](./doppler)**: Provides scripts and documentation for integrating Doppler for secret management.
-*   **[github](./github)**: Offers tutorials and examples for various GitHub features, including Actions.
-*   **[projects](./projects)**: Encompasses standalone development projects, each with its own codebase.
-*   **[proxy](./proxy)**: Manages configurations for proxy services, such as `socat`.
-*   **[scripts](./scripts)**: Stores utility scripts designed to automate common development or maintenance tasks.
-*   **[security](./security)**: Houses configurations and documentation related to security tools like Fail2Ban.
-*   **[ssh](./ssh)**: Dedicated to documentation and guides for setting up and securely transferring SSH keys.
-*   **[unraid](./unraid)**: Contains user-specific scripts tailored for Unraid systems.
+*   **[.github](./.github)**: Contains GitHub Actions CI/CD workflows (such as AI README generation) and repository maintenance scripts.
+*   **[assets](./assets)**: Centralized static assets repository, including permanent [app icons](./assets/icons) for homelab dashboards (with CDN links), avatars, and Obsidian note attachments.
+*   **[docs](./docs)**: Obsidian knowledge base containing guides and cheatsheets for SSH key management, Doppler secrets, GitHub Actions, and certifications.
+*   **[homelab](./homelab)**: Infrastructure configurations and host scripts, featuring [Unraid user scripts](./homelab/unraid/user-scripts), Fail2Ban security with Cloudflare/Telegram integration, and proxy configurations.
+*   **[projects](./projects)**: Standalone runnable project templates and codebases, including a containerized Python FastAPI + Terraform stack.

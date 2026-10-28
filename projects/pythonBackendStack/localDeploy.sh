@@ -20,7 +20,7 @@ fi
 TAG=$(date +%Y%m%d%H%M%S)
 
 # Build the Docker container with the unique tag
-docker build -t fastapi:$TAG -f .dockerfile .
+docker build -t fastapi:$TAG -f Dockerfile .
 if [ $? -ne 0 ]; then
     echo "Error: Docker build failed."
     exit 1

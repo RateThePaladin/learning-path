@@ -8,9 +8,9 @@ This project is a Python backend application deployed using Docker and managed w
 
 - **app/main.py**: The main entry point for the Python application.
 - **requirements.txt**: Lists the Python dependencies for the project.
-- **.dockerfile**: Dockerfile for building the Docker image.
+- **Dockerfile**: Dockerfile for building the Docker image.
 - **main.tf**: Terraform configuration file for managing infrastructure.
-- **deployTest.sh**: Shell script for deploying the application.
+- **localDeploy.sh**: Shell script for building and deploying the application.
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ This project is a Python backend application deployed using Docker and managed w
 
 3. **Build the Docker image**:
     ```sh
-    docker build -t your-image-name -f .dockerfile .
+    docker build -t your-image-name .
     ```
 
 4. **Deploy using Terraform**:
@@ -49,7 +49,11 @@ This project is a Python backend application deployed using Docker and managed w
 To run the application locally:
 ```sh
 python app/main.py
+```
 
-Deployment
-To deploy the application, run the deployTest.sh script:
-./deployTest.sh
+### Deployment
+
+To deploy the application with Docker and Terraform, run:
+```sh
+./localDeploy.sh
+```
