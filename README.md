@@ -10,11 +10,11 @@ Forever a student. Repo for documenting public learnings and certifications
 
 Here's a summary of the most recent developments in the repository:
 
-*   **2026-10-28**: Updated documentation to reflect recent changes, including an auto-update of the README. ([`77ee8aa`](https://github.com/RateThePaladin/learning-path/commit/77ee8aa))
+*   **2026-10-27**: Switched documentation updater from PR creation to direct auto-commit with multi-layer loop prevention. ([`7c78946`](https://github.com/RateThePaladin/learning-path/commit/7c78946))
+*   **2026-10-27**: Merged pull request #16, related to auto-updating the README. ([#16](https://github.com/RateThePaladin/learning-path/pull/16))
+*   **2026-10-28**: Auto-updated README and catalog documentation. ([`3f2add6`](https://github.com/RateThePaladin/learning-path/commit/3f2add6))
 *   **2026-10-27**: Merged structural refactor, adding Gitleaks secret scanner, an auto-updating icon catalog, and date-related features. ([`d39e0e1`](https://github.com/RateThePaladin/learning-path/commit/d39e0e1))
-*   **2026-10-27**: Merged pull request #15, relating to auto-updating the README. ([#15](https://github.com/RateThePaladin/learning-path/pull/15))
-*   **2026-10-27**: Added Antigravity and Windscribe application icons to assets. ([`5ef8d3d`](https://github.com/RateThePaladin/learning-path/commit/5ef8d3d))
-*   **2026-10-27**: Merged pull request #13, relating to auto-updating the README. ([#13](https://github.com/RateThePaladin/learning-path/pull/13))
+*   **2026-10-27**: Merged pull request #15, related to auto-updating the README. ([#15](https://github.com/RateThePaladin/learning-path/pull/15))
 
 ## Repository Structure
 
