@@ -10,11 +10,11 @@ Forever a student. Repo for documenting public learnings and certifications
 
 Here's a summary of the most recent developments in the repository:
 
-*   **2026-11-13**: Add files via upload ([`5dfea91`](https://github.com/RateThePaladin/learning-path/commit/5dfea91))
-*   **2026-10-28**: Auto-update README and catalog documentation ([`c3de840`](https://github.com/RateThePaladin/learning-path/commit/c3de840))
-*   **2026-10-27**: Added copyparty app icon ([`e41b34f`](https://github.com/RateThePaladin/learning-path/commit/e41b34f))
-*   **2026-10-28**: Auto-update README and catalog documentation ([`f48a92a`](https://github.com/RateThePaladin/learning-path/commit/f48a92a))
-*   **2026-10-27**: Switched documentation updater from PR creation to direct auto-commit with multi-layer loop prevention ([`7c78946`](https://github.com/RateThePaladin/learning-path/commit/7c78946))
+*   **2026-11-14**: Merged icons update ([#17](https://github.com/RateThePaladin/learning-path/pull/17))
+*   **2026-11-14**: Added npm sync icon ([`60198d4`](https://github.com/RateThePaladin/learning-path/commit/60198d4))
+*   **2026-11-14**: Added files via upload ([`a7733db`](https://github.com/RateThePaladin/learning-path/commit/a7733db))
+*   **2026-11-14**: Automated README and catalog documentation update ([`682ce64`](https://github.com/RateThePaladin/learning-path/commit/682ce64))
+*   **2026-11-13**: Added files via upload ([`5dfea91`](https://github.com/RateThePaladin/learning-path/commit/5dfea91))
 
 ## Repository Structure
 
